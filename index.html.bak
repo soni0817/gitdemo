@@ -1,0 +1,58 @@
+<html>
+<head>
+<title>demo</title>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="css/bootstrap.min.css">
+<link rel="stylesheet" href="css/style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light bg-purple">
+  <a class="navbar-brand navbar_brand" href="#"><img src="images/logo.png"></a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+	 <form class="form-inline form-custom my-2 my-lg-0">
+	<div class="input-box">
+	<label class="input-label">Date</label>
+      <input class="form-control form__control" type="search" placeholder="I Want to go out?" aria-label="Search">
+	</div>
+	<div class="input-box">
+	  <label class="input-label">Location</label>
+	  <input class="form-control form__control" type="search" placeholder="My current location" aria-label="Search">
+	  </div>
+	  <div class="input-box">
+	  <label class="input-label">Looking for</label>
+	  <input class="form-control form__control form_control-3" type="search" placeholder="What are you in the mood for?" aria-label="Search">
+	  </div>
+      <button class="btn btn-input" type="submit">
+	  <img src="images/search.png">
+	  </button>
+    </form>
+	 <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav navbar_nav mr-auto">
+      <li class="nav-item">
+	  <span><img src="images/Host-Event.png"></span>
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+	  <span><img src="images/Wishlist.png"></span>
+        <a class="nav-link" href="#">Wishlist</a>
+      </li>
+      <li class="nav-item">
+	   <span><img src="images/Notification.png"></span>
+        <a class="nav-link" href="#">Notification</a>
+      </li>
+	  <li class="nav-item">
+	   <span><img src="images/Profile.png"></span>
+        <a class="nav-link" href="#">Profile<span><img src="images/arrow.png"></span></a>
+		
+      </li>
+    </ul>
+   
+  </div>
+</nav>
+</body>
+</html>
